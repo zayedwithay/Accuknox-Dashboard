@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+// import icons
+import 'bootstrap-icons/font/bootstrap-icons.css'
+import 'remixicon/fonts/remixicon.css'
+
+// import bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
+
+// start
 import './App.css';
+import { useEffect } from 'react';
+import { Provider, useDispatch } from 'react-redux';
+import Header from './components/Header';
+import Main from './components/Main';
+
+import { setCategories } from './store/store'; // Path must be correct
+import store from './store/store';
+import Dashboard from './components/Dashboard.jsx';
+
 
 function App() {
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Main />
+     <Dashboard />
+  
+    
+ 
+
+    </>
+
+
   );
 }
 

@@ -1,0 +1,100 @@
+
+
+.dashboard{
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+ h4{
+    font-size: 17px; 
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #012970;
+ }
+ .subhead{
+    
+    font-size: 15px; 
+    
+    font-weight: 600;
+    color: #012970;
+ }
+ .c{display: flex;
+    flex-direction: column;
+
+    
+    height: 240px;
+    width: 370px; 
+       
+    
+ }
+ .cb{
+
+    height: 250px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+ }
+ .addwidget{
+
+    height: 240px;
+    width: 370px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(220, 220, 220);
+    color: grey;
+ }
+ .addwidget:hover{
+    background-color: rgb(67, 156, 219);
+    border: none;
+ }
+
+ 
+ .rmw{
+    height: 25px;
+    padding: 0;
+    width: 25px;
+    position:absolute;
+    left: 335px;
+    top: 1px;
+   background-color: white;
+    font-weight: 600;
+    color: red;
+    
+    border: none;
+   
+   
+    }
+    .rmw:hover{
+        height: 25px;
+    padding: 0;
+    width: 25px;
+    position:absolute;
+    left: 335px;
+    top: 1px;
+   background-color: rgb(255, 11, 11);
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    
+    border: none;
+   
+    }
+ .chart{
+
+    height: 180px;
+    width: 300px;
+    margin-left: 70px;
+ }
+ 
+ .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .dd-addwidget{
+    background-color: rgb(35, 174, 35);
+    border: none;
+ }
+ .dd-close{
+    background-color: rgb(225, 17, 17);
+    border: none;
+ }
