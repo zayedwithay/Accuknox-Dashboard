@@ -29,7 +29,7 @@ function Dashboard() {
         if (savedData) {
           setData(JSON.parse(savedData));
         }else{
-          const response = await fetch('./../data/dashboardData.json');
+          const response = await fetch('https://api.jsonbin.io/v3/b/66cb9a54acd3cb34a8796e77');
           const result = await response.json();
           setData(result);
           console.log("YE DEKH BHAI", result);
